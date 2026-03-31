@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 338 100% 48%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 48 100% 50%;
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 340 30% 95%;
+    --muted-foreground: 0 0% 35%;
+
+    --accent: 145 70% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 340 20% 90%;
+    --input: 340 20% 90%;
+    --ring: 338 100% 48%;
+
+    --radius: 0.75rem;
+
+    --candy-red: 338 100% 48%;
+    --candy-yellow: 48 100% 50%;
+    --candy-green: 145 70% 40%;
+    --candy-orange: 20 100% 55%;
+    --candy-cream: 340 100% 97%;
+    --candy-warm: 338 60% 92%;
+
+    --font-display: 'Fredoka', sans-serif;
+    --font-body: 'Nunito', sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .text-gradient-candy {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--candy-red)), hsl(var(--candy-orange)), hsl(var(--candy-yellow)));
+  }
+
+  .bg-gradient-candy {
+    background-image: linear-gradient(135deg, hsl(var(--candy-red)), hsl(var(--candy-orange)));
+  }
+
+  .bg-gradient-warm {
+    background-image: linear-gradient(135deg, hsl(var(--candy-cream)), hsl(var(--candy-warm)));
+  }
+
+  .bg-gradient-hero {
+    background-image: linear-gradient(135deg, hsl(338 100% 48%), hsl(48 100% 50%));
+  }
+
+  .shadow-candy {
+    box-shadow: 0 10px 40px -8px hsl(var(--candy-red) / 0.4);
+  }
+
+  .shadow-yellow {
+    box-shadow: 0 10px 40px -8px hsl(var(--candy-yellow) / 0.5);
+  }
+}
