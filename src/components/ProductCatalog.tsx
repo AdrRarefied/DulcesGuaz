@@ -12,7 +12,7 @@ import Borachitos from "@/assets/BorachitosGuaz.png";
 import Unicomeme from "@/assets/UnicomemeGuaz.png";
 import Comesaurio from "@/assets/Comesaurio.png";
 import VelaChispa from "@/assets/VelaChispa.png";
-import Varillazo from "@/assets/varillazoGuaz.png";
+import Varillazo from "@/assets/VarillazoGuaz.png";
 import Cuartazo from  "@/assets/CuartazoGuaz.png"; 
 
 const products = [
