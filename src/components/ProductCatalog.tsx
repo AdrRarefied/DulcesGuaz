@@ -12,8 +12,8 @@ import Borachitos from "@/assets/BorachitosGuaz.png";
 import Unicomeme from "@/assets/UnicomemeGuaz.png";
 import Comesaurio from "@/assets/Comesaurio.png";
 import VelaChispa from "@/assets/Vela Chispa .png";
-import Varillazo from "@/assets/varillazo Guaz.png";
-import Cuartazo from  "@/assets/Cuartazo Guaz.png"; 
+import Varillazo from "@/assets/varillazoGuaz.png";
+import Cuartazo from  "@/assets/CuartazoGuaz.png"; 
 
 const products = [
   { name: "Cachekangurin Chamoy", description: "Paleta de caramelo suave \n🌶️chamoy ", image:CachekangurinChamoi },
