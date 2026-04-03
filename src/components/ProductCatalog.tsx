@@ -2,22 +2,32 @@
 import { Button } from "@/components/ui/button";
 import { Download, ShoppingBag } from "lucide-react";
 
-
-import CacheKangurin from "@/assets/tmpd21dcmtl.webp";
-import Devorasports from "@/assets/tmplh69b9ho.webp";
-import DevoraGuaz from "@/assets/tmpd2k8whu1.webp";
-import Comesaurio from "@/assets/tmpix1rs033.webp";
-import Unicomeme from "@/assets/tmpxdp9f6u9.webp";
-import Varillazo from "@/assets/Varillazo.png";
+import CachekangurinChamoi from  "@/assets/CachekangurinChamoi.png";
+import CacheKangurin from "@/assets/CacheKangurin.png";
+import MegaCacheKangurin from "@/assets/Mega-CacheKangurin.png";
+import KanguChara from "@/assets/Kangu-Chara.png";
+import Devorasports from "@/assets/DevoraSport.png";
+import DevoraGuaz from "@/assets/DeboraGuaz.png";
+import Borachitos from "@/assets/BorachitosGuaz.png";
+import Unicomeme from "@/assets/UnicomemeGuaz.png";
+import Comesaurio from "@/assets/Comesaurio.png";
+import VelaChispa from "@/assets/Vela Chispa .png";
+import Varillazo from "@/assets/varillazo Guaz.png";
+import Cuartazo from  "@/assets/Cuartazo Guaz.png"; 
 
 const products = [
-  { name: "Cache Kangurin", description: " paletas de caramelo suave, disponibles en bolsas surtidas, con 5 sabores diferentes:, Una mezcla ácida, frutal y tropical:\n🍊 Naranja \n🫐 Mora azul\n🥭 Mango\n🍉🍓 Sandía–Fresa\n🥒Pepino\n🌰 Tamarindo , ", image: CacheKangurin },
+  { name: "Cachekangurin Chamoy", description: "Paleta de caramelo suave \n🌶️chamoy ", image:CachekangurinChamoi },
+  { name: "Cache-Kangurin", description: " paletas de caramelo suave, disponibles en bolsas surtidas con 5 sabores diferentes:, Una mezcla ácida, frutal y tropical:\n🍊 Naranja \n🫐 Mora azul\n🥭 Mango\n🍉🍓 Sandía–Fresa\n🥒Pepino\n🌰 Tamarindo ", image: CacheKangurin },
+  { name: "MegaK-cheguaz", description: " paletas de caramelo suave, disponibles en bolsas surtidas con 5 sabores diferentes:, Una mezcla ácida, frutal y tropical:\n🍊 Naranja \n🫐 Mora azul\n🥭 Mango\n🍉🍓 Sandía–Fresa\n🥒Pepino\n🌰 Tamarindo, \n🍐 Guayaba", image:MegaCacheKangurin },
+  { name: "Kangu-Chara", description: "Pulpa de sabores \n🍊 Naranja \n🫐 Mora azul\n🥭 Mango\n🍉Sandía\n🥒Pepino \n🍇Uva \n🍬Chicle", image: KanguChara },
   { name: "Devorasports", description: "pulpa suave saborizada,disponible en una caja surtidacon 7 sabores diferentes:Una experiencia frutal, divertida y refrescante:\n🍎 Manzana\n🫐 Mora azul\n🥭 Mango\n🍉 Sandía\n🍑 Durazno\n🍬 Chicle\n🥒 Pepino", image: Devorasports },
   { name: "Devoraguaz", description: "pulpa suave bi sabor,disponible en una caja surtidacon 5 combinaciones distintas: Una mezcla única de sabores dulces, frutales y picantes:\n🍉🥒 Sandía–Pepino\n🌰🍑 Tamarindo–Durazno\n🫐🍓 Mora azul–Chicle fresa\n🥭🌶 Mango–Chamoy", image: DevoraGuaz },
-  { name: "Comesaurio", description: "pulpa suave saborizada, disponible en una caja surtida con 4 sabores diferentes:Una combinación refrescante y tropical:\n🫐 Mora azul\n🥭 Mango\n🍉 Sandía\n🥒 Pepino", image: Comesaurio },
+  { name: "Borachitos", description: "-Rompope -Whisky - Fresas con crema \n-Colores -Baileys -Kalua \n-Tequila -Coñac -Capuchino \n Tequila Plata -Tequila Azul -Choco chip \n-Tequila Reposado -Piña Colada -Coco con Ginebra\n Tres Leches -Malteada entre muchos más... ", image:Borachitos },
   { name: "Unicomeme", description: "pulpa suave saborizada, disponible en una caja surtida con 4 sabores diferentes:\n🫐 Mora azul\n🍬 Chicle\n🍈 Guayaba\n🌺 Jamaica", image: Unicomeme },
-  { name: "Varillazo", description: "Varilla cubierta de pulpa de tamarindo", image: Varillazo },
-  
+  { name: "Comesaurio", description: "pulpa suave saborizada, disponible en una caja surtida con 4 sabores diferentes:Una combinación refrescante y tropical:\n🫐 Mora azul\n🥭 Mango\n🍉 Sandía\n🥒 Pepino", image: Comesaurio },
+  { name: ":Vela Chispa", description: "Multicolor con 5 colores en una misma chispa \n 10cm - 30seg \n 14cm - 50seg", image:VelaChispa },
+  { name: "Varillazo", description: "Pulpa suabe con chile, \n🥭 Mango \n🌰 Tamarindo \n 🌶️Chamoy", image: Varillazo },
+  { name: "Cuartazo", description: "Pulpa de futas con chile \n🥭 Mango \n🌰 Tamarindo \n 🌶️Chamoy \n🍓Fresa \n🍐 Guayaba \n🍉Sandía  \n🍍Piña ", image:Cuartazo },
 ];
 
 const ProductCatalog = () => {

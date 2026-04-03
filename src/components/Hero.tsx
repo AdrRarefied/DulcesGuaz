@@ -1,6 +1,6 @@
 import { Phone, ArrowDown, Sparkles } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import logo from "@/assets/logo-dulces-guaz.png";
+import logo from "@/assets/Dulces Guaz.png";
 
 const floatingCandies = [
   { emoji: "🍬", className: "top-[10%] left-[5%] animate-float text-4xl md:text-5xl" },
