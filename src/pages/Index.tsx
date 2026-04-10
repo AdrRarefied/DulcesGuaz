@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import ValueProposition from "@/components/ValueProposition";
+import HistoriaGuaz from "@/components/HistoriaGuaz";
 import ProductCatalog from "@/components/ProductCatalog";
 import DistributionProcess from "@/components/DistributionProcess";
 import Contact from "@/components/Contact";
@@ -8,8 +9,9 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <Hero />
+      <HistoriaGuaz />
       <ValueProposition />
       <ProductCatalog />
       <DistributionProcess />

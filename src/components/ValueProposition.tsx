@@ -25,7 +25,8 @@ const benefits = [
 
 const ValueProposition = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-primary/10 via-candy-warm to-secondary/10">
+        <section className="py-24 bg-gradient-to-b from-[#be107e]/40 to-[#fcfadf]">
+      
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
