@@ -4,22 +4,22 @@ const benefits = [
   {
     icon: Factory,
     title: "Directo de fábrica",
-    description: "Producción propia con los más altos estándares de calidad e higiene.",
+    description: "Producción propia que te permite obtener mejor precio y mayor margen de ganancia.",
   },
   {
     icon: BadgeDollarSign,
     title: "Precios competitivos",
-    description: "Al eliminar intermediarios, ofrecemos los mejores precios de mayoreo.",
+    description: "Precios que sí dejan utilidad. \nDiseñados para que puedas vender y ganar, no solo competir.",
   },
   {
     icon: Truck,
     title: "Capacidad de surtido",
-    description: "Gran variedad de productos con disponibilidad inmediata para tu negocio.",
+    description: "Surtido constante. \nDisponibilidad continua para que nunca te quedes sin producto.",
   },
   {
     icon: ShieldCheck,
     title: "Calidad garantizada",
-    description: "Todos nuestros dulces cumplen con las normas sanitarias vigentes.",
+    description: "Calidad que se vende. \nProductos con aceptación comprobada y cumplimiento sanitario.",
   },
 ];
 
@@ -30,10 +30,10 @@ const ValueProposition = () => {
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            ¿Por qué distribuir <span className="text-primary">Dulces Guaz</span>?
+            ¿Por qué elegir  <span className="text-primary">Dulces Guaz</span> para tu negocio?
           </h2>
           <p className="text-muted-foreground text-lg">
-            Somos tu aliado confiable para hacer crecer tu negocio de dulces con producto de calidad.
+            Trabajamos contigo para que tengas productos que se vendan, roten rápido y generen utilidad.
           </p>
         </div>
 

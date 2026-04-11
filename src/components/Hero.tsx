@@ -12,7 +12,8 @@ const floatingCandies = [
 ];
 
 const Hero = () => {
-  const whatsappUrl = "https://wa.me/523325834986?text=Hola%2C%20me%20interesa%20ser%20distribuidor%20de%20Dulces%20Guaz";
+const mensajeDirecto = "Hola Dulces Guaz, vengo de la página web y quisiera cotizar.";
+  const whatsappUrl = `https://wa.me/523325834986?text=${encodeURIComponent(mensajeDirecto)}`;
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -64,27 +65,33 @@ const Hero = () => {
           </span>
 
           {/* Headline with staggered animation */}
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-primary-foreground">
-            <span className="block animate-slide-up" style={{ animationDelay: "0.3s", opacity: 0 }}>
-              Dulces que
-            </span>
-            <span
-              className="block text-candy-yellow animate-scale-up drop-shadow-[0_0_30px_hsl(var(--candy-yellow)/0.6)]"
-              style={{ animationDelay: "0.5s", opacity: 0 }}
-            >
-              conquistan
-            </span>
-            <span className="block animate-slide-up" style={{ animationDelay: "0.7s", opacity: 0 }}>
-              paladares
-            </span>
-          </h1>
+        <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold tracking-tight text-white leading-[0.9]">
+          <span className="block drop-shadow-xl animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:200ms]">
+            Dulces que <span className="italic">sí</span>
+          </span>
+          
+          <span className="block text-yellow-400 drop-shadow-xl animate-scale-up opacity-0 [animation-fill-mode:forwards] [animation-delay:500ms] my-2">
+            se Venden
+          </span>
+          
+          <span className="block text-4xl sm:text-5xl md:text-6xl font-medium lowercase animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:800ms]">
+            y dejan
+          </span>
+          
+          <span className="block text-yellow-400 drop-shadow-xl animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:1100ms]">
+            ganancia
+          </span>
+        </h1>
 
           <p
-            className="text-lg sm:text-xl text-primary-foreground/85 max-w-lg font-body animate-slide-up"
-            style={{ animationDelay: "0.9s", opacity: 0 }}
+            className="text-lg sm:text-xl text-primary-foreground/85 max-w-lg font-body animate-slide-up leading-relaxed"
+            style={{ animationDelay: "0.9s", opacity: 1 }} // Cambié opacity a 1 para que sea visible si no tienes el CSS de la animación activo
           >
-            Fabricamos dulces de la más alta calidad con precios de mayoreo.
-            Conviértete en distribuidor autorizado y haz crecer tu negocio.
+            Fabricamos caramelos suaves <span className="font-bold text-candy-yellow">(K-CHETADAS)</span> y pulpas con alta rotación, excelente margen y calidad para tiendas y distribuidores.
+            
+            <br /><br />
+
+            Convierte tu negocio en un punto de venta rentable con productos que el cliente ya busca.
           </p>
 
           <div
@@ -98,7 +105,7 @@ const Hero = () => {
               className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-candy-yellow to-candy-orange text-secondary-foreground font-bold text-lg rounded-2xl px-10 py-5 shadow-[0_8px_30px_hsl(var(--candy-yellow)/0.4)] hover:shadow-[0_12px_40px_hsl(var(--candy-yellow)/0.7)] hover:scale-[1.05] active:scale-95 transition-all duration-300"
             >
               <Phone className="h-6 w-6 group-hover:animate-bounce" />
-              ¡Quiero ser Distribuidor!
+              ¡Cotiza por WhatsApp!
               <span className="absolute inset-0 rounded-2xl bg-gradient-to-r from-transparent via-white/20 to-transparent bg-[length:200%_100%] animate-shimmer" />
             </a>
             <a
